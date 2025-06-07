@@ -121,6 +121,10 @@ GenerateClassCluster=0
 DocumentUniqueId=
 
 [GeneratedDocument1]
+DocumentPath=Project Outputs for Placa_sensores_PIC24 - arreglo temperatura\Design Rule Check - PCB_Sensores_PIC24-temp.html
+DItemRevisionGUID=
+
+[GeneratedDocument2]
 DocumentPath=Project Outputs for Placa_sensores_PIC24\Design Rule Check - PCB_Sensores_PIC24.html
 DItemRevisionGUID=
 
