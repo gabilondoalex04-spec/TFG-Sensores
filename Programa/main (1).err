@@ -1,0 +1,5 @@
+Compiling C:\Users\Cap\OneDrive\Universidad\Formula student\Telemetría\CCS\pic24\c4\main on 15-dic.-21 at 22:16
+>>> Warning 216 "main.c" Line 81(1,2): Interrupts disabled during call to prevent re-entrancy:  (can_enable_interrupts)
+      Memory usage:   ROM=1%      RAM=2% - 2%
+      0 Errors,  1 Warnings.
+Build Successful.

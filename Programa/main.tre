@@ -1,0 +1,137 @@
+ÀÄmain
+   ÃÄMAIN  0/478  Ram=6
+   ³  ÃÄ@cinit1  (Inline)  Ram=0
+   ³  ÃÄsetup  0/138  Ram=0
+   ³  ³  ÃÄcan_init  0/322  Ram=0
+   ³  ³  ³  ÃÄcan_set_mode  0/28  Ram=1
+   ³  ³  ³  ÃÄcan_set_baud  0/60  Ram=0
+   ³  ³  ³  ÃÄcan_set_buffer_size  0/146  Ram=1
+   ³  ³  ³  ÃÄcan_config_DMA  0/60  Ram=0
+   ³  ³  ³  ÃÄcan_set_id  0/174  Ram=10
+   ³  ³  ³  ³  ÃÄcan_set_mode  0/28  Ram=1
+   ³  ³  ³  ³  ÀÄcan_set_mode  0/28  Ram=1
+   ³  ³  ³  ÃÄcan_set_id  0/174  Ram=10
+   ³  ³  ³  ³  ÀÄ*
+   ³  ³  ³  ÃÄcan_set_id  0/174  Ram=10
+   ³  ³  ³  ³  ÀÄ*
+   ³  ³  ³  ÃÄcan_set_id  0/174  Ram=10
+   ³  ³  ³  ³  ÀÄ*
+   ³  ³  ³  ÃÄcan_set_id  0/174  Ram=10
+   ³  ³  ³  ³  ÀÄ*
+   ³  ³  ³  ÃÄcan_set_id  0/174  Ram=10
+   ³  ³  ³  ³  ÀÄ*
+   ³  ³  ³  ÃÄcan_set_id  0/174  Ram=10
+   ³  ³  ³  ³  ÀÄ*
+   ³  ³  ³  ÃÄcan_set_id  0/174  Ram=10
+   ³  ³  ³  ³  ÀÄ*
+   ³  ³  ³  ÃÄcan_set_id  0/174  Ram=10
+   ³  ³  ³  ³  ÀÄ*
+   ³  ³  ³  ÃÄcan_set_id  0/174  Ram=10
+   ³  ³  ³  ³  ÀÄ*
+   ³  ³  ³  ÃÄcan_set_id  0/174  Ram=10
+   ³  ³  ³  ³  ÀÄ*
+   ³  ³  ³  ÃÄcan_set_id  0/174  Ram=10
+   ³  ³  ³  ³  ÀÄ*
+   ³  ³  ³  ÃÄcan_set_id  0/174  Ram=10
+   ³  ³  ³  ³  ÀÄ*
+   ³  ³  ³  ÃÄcan_set_id  0/174  Ram=10
+   ³  ³  ³  ³  ÀÄ*
+   ³  ³  ³  ÃÄcan_set_id  0/174  Ram=10
+   ³  ³  ³  ³  ÀÄ*
+   ³  ³  ³  ÃÄcan_set_id  0/174  Ram=10
+   ³  ³  ³  ³  ÀÄ*
+   ³  ³  ³  ÃÄcan_set_id  0/174  Ram=10
+   ³  ³  ³  ³  ÀÄ*
+   ³  ³  ³  ÃÄcan_set_id  0/174  Ram=10
+   ³  ³  ³  ³  ÀÄ*
+   ³  ³  ³  ÃÄcan_set_id  0/174  Ram=10
+   ³  ³  ³  ³  ÀÄ*
+   ³  ³  ³  ÃÄcan_associate_filter_to_buffer  0/344  Ram=2
+   ³  ³  ³  ³  ÃÄcan_set_mode  0/28  Ram=1
+   ³  ³  ³  ³  ÀÄcan_set_mode  0/28  Ram=1
+   ³  ³  ³  ÃÄcan_enable_filter  0/46  Ram=4
+   ³  ³  ³  ³  ÃÄcan_set_mode  0/28  Ram=1
+   ³  ³  ³  ³  ÀÄcan_set_mode  0/28  Ram=1
+   ³  ³  ³  ÀÄcan_set_mode  0/28  Ram=1
+   ³  ³  ÃÄcan2_init  0/322  Ram=0
+   ³  ³  ³  ÃÄcan2_set_mode  0/28  Ram=1
+   ³  ³  ³  ÃÄcan2_set_baud  0/60  Ram=0
+   ³  ³  ³  ÃÄcan2_set_buffer_size  0/146  Ram=1
+   ³  ³  ³  ÃÄcan2_config_DMA  0/60  Ram=0
+   ³  ³  ³  ÃÄcan2_set_id  0/174  Ram=10
+   ³  ³  ³  ³  ÃÄcan2_set_mode  0/28  Ram=1
+   ³  ³  ³  ³  ÀÄcan2_set_mode  0/28  Ram=1
+   ³  ³  ³  ÃÄcan2_set_id  0/174  Ram=10
+   ³  ³  ³  ³  ÀÄ*
+   ³  ³  ³  ÃÄcan2_set_id  0/174  Ram=10
+   ³  ³  ³  ³  ÀÄ*
+   ³  ³  ³  ÃÄcan2_set_id  0/174  Ram=10
+   ³  ³  ³  ³  ÀÄ*
+   ³  ³  ³  ÃÄcan2_set_id  0/174  Ram=10
+   ³  ³  ³  ³  ÀÄ*
+   ³  ³  ³  ÃÄcan2_set_id  0/174  Ram=10
+   ³  ³  ³  ³  ÀÄ*
+   ³  ³  ³  ÃÄcan2_set_id  0/174  Ram=10
+   ³  ³  ³  ³  ÀÄ*
+   ³  ³  ³  ÃÄcan2_set_id  0/174  Ram=10
+   ³  ³  ³  ³  ÀÄ*
+   ³  ³  ³  ÃÄcan2_set_id  0/174  Ram=10
+   ³  ³  ³  ³  ÀÄ*
+   ³  ³  ³  ÃÄcan2_set_id  0/174  Ram=10
+   ³  ³  ³  ³  ÀÄ*
+   ³  ³  ³  ÃÄcan2_set_id  0/174  Ram=10
+   ³  ³  ³  ³  ÀÄ*
+   ³  ³  ³  ÃÄcan2_set_id  0/174  Ram=10
+   ³  ³  ³  ³  ÀÄ*
+   ³  ³  ³  ÃÄcan2_set_id  0/174  Ram=10
+   ³  ³  ³  ³  ÀÄ*
+   ³  ³  ³  ÃÄcan2_set_id  0/174  Ram=10
+   ³  ³  ³  ³  ÀÄ*
+   ³  ³  ³  ÃÄcan2_set_id  0/174  Ram=10
+   ³  ³  ³  ³  ÀÄ*
+   ³  ³  ³  ÃÄcan2_set_id  0/174  Ram=10
+   ³  ³  ³  ³  ÀÄ*
+   ³  ³  ³  ÃÄcan2_set_id  0/174  Ram=10
+   ³  ³  ³  ³  ÀÄ*
+   ³  ³  ³  ÃÄcan2_set_id  0/174  Ram=10
+   ³  ³  ³  ³  ÀÄ*
+   ³  ³  ³  ÃÄcan2_set_id  0/174  Ram=10
+   ³  ³  ³  ³  ÀÄ*
+   ³  ³  ³  ÃÄcan2_associate_filter_to_buffer  0/344  Ram=2
+   ³  ³  ³  ³  ÃÄcan2_set_mode  0/28  Ram=1
+   ³  ³  ³  ³  ÀÄcan2_set_mode  0/28  Ram=1
+   ³  ³  ³  ÃÄcan2_enable_filter  0/46  Ram=4
+   ³  ³  ³  ³  ÃÄcan2_set_mode  0/28  Ram=1
+   ³  ³  ³  ³  ÀÄcan2_set_mode  0/28  Ram=1
+   ³  ³  ³  ÀÄcan2_set_mode  0/28  Ram=1
+   ³  ³  ÃÄcan_enable_b_transfer  0/224  Ram=1
+   ³  ³  ÃÄcan2_enable_b_transfer  0/224  Ram=1
+   ³  ³  ÃÄcan2_enable_b_receiver  0/242  Ram=1
+   ³  ³  ÃÄcan_set_mode  0/28  Ram=1
+   ³  ³  ÃÄcan_set_mode  0/28  Ram=1
+   ³  ³  ÃÄcan_enable_interrupts  0/26  Ram=6
+   ³  ³  ÀÄcan2_enable_interrupts  0/26  Ram=6
+   ³  ÃÄreadChanel  0/22  Ram=2
+   ³  ÃÄreadChanel  0/22  Ram=2
+   ³  ÃÄreadChanel  0/22  Ram=2
+   ³  ÃÄreadChanel  0/22  Ram=2
+   ³  ÃÄreadChanel  0/22  Ram=2
+   ³  ÃÄfactorConversion  0/62  Ram=8
+   ³  ÃÄreadChanel  0/22  Ram=2
+   ³  ÃÄfactorConversion  0/62  Ram=8
+   ³  ÃÄreadChanel  0/22  Ram=2
+   ³  ÃÄnormalizacionSuspen  0/78  Ram=8
+   ³  ÃÄreadChanel  0/22  Ram=2
+   ³  ÃÄnormalizacionSuspen  0/78  Ram=8
+   ³  ÃÄreadChanel  0/22  Ram=2
+   ³  ÃÄfactorConversion  0/62  Ram=8
+   ³  ÃÄcan_putd  0/696  Ram=18
+   ³  ÀÄcan_putd  0/696  Ram=18
+   ÃÄtimer1_isr  0/76  Ram=0
+   ³  ÃÄcan_enable_interrupts  0/26  Ram=6
+   ³  ÀÄcan2_enable_interrupts  0/26  Ram=6
+   ÀÄcan2_isr  0/996  Ram=18
+      ÃÄcan2_getd  (Inline)  Ram=16
+      ³  ÀÄcan2_get_id  0/128  Ram=13
+      ÃÄcan_enable_interrupts  0/26  Ram=6
+      ÀÄcan2_enable_interrupts  0/26  Ram=6

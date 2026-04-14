@@ -1,0 +1,64 @@
+Compiling C:\Users\34609\Desktop\FSB\FSB2023\Programas\master 2023\main on 21-abr.-23 at 14:33
+>>> Warning 225 "main.c" Line 100(29,32): Duplicate #define
+>>> Warning 240 "main.c" Line 677(26,38): Pointer types do not match
+>>> Warning 216 "main.c" Line 1118(1,2): Interrupts disabled during call to prevent re-entrancy:  (can2_enable_interrupts)
+>>> Warning 216 "main.c" Line 1118(1,2): Interrupts disabled during call to prevent re-entrancy:  (can_enable_interrupts)
+>>> Warning 216 "main.c" Line 1118(1,2): Interrupts disabled during call to prevent re-entrancy:  (can_putd)
+>>> Warning 202 "main.c" Line 127(6,17): Variable never used:   slave_error
+>>> Warning 202 "main.c" Line 138(15,21): Variable never used:   can_id
+>>> Warning 202 "main.c" Line 142(24,31): Variable never used:   can_msg
+>>> Warning 202 "main.c" Line 143(15,27): Variable never used:   send_handler
+>>> Warning 202 "main.c" Line 144(6,20): Variable never used:   can_msg_size_1
+>>> Warning 202 "main.c" Line 145(6,11): Variable never used:   array
+>>> Warning 202 "main.c" Line 146(6,16): Variable never used:   can_length
+>>> Warning 202 "main.c" Line 147(6,21): Variable never used:   can_msg_handler
+>>> Warning 202 "main.c" Line 148(6,22): Variable never used:   can2_msg_handler
+>>> Warning 202 "main.c" Line 153(15,30): Variable never used:   subestado_carga
+>>> Warning 202 "main.c" Line 165(24,33): Variable never used:   buffer666
+>>> Warning 202 "main.c" Line 166(24,31): Variable never used:   buffer1
+>>> Warning 202 "main.c" Line 167(24,31): Variable never used:   buffer2
+>>> Warning 202 "main.c" Line 168(24,31): Variable never used:   buffer3
+>>> Warning 202 "main.c" Line 170(25,42): Variable never used:   precharge_counter
+>>> Warning 202 "main.c" Line 172(25,39): Variable never used:   precharge_time
+>>> Warning 202 "main.c" Line 174(24,42): Variable never used:   contactors_enabled
+>>> Warning 202 "main.c" Line 176(25,42): Variable never used:   precharge_voltage
+>>> Warning 202 "main.c" Line 178(24,36): Variable never used:   accu_voltage
+>>> Warning 202 "main.c" Line 179(24,33): Variable never used:   corriente
+>>> Warning 202 "main.c" Line 181(15,39): Variable never used:   can_state_report_handler
+>>> Warning 202 "main.c" Line 182(24,31): Variable never used:   V_array
+>>> Warning 202 "main.c" Line 183(6,13): Variable never used:   T_array
+>>> Warning 202 "main.c" Line 184(6,18): Variable never used:   cell_voltage
+>>> Warning 202 "main.c" Line 186(6,10): Variable never used:   flag
+>>> Warning 202 "main.c" Line 189(15,25): Variable never used:   estado_ecu
+>>> Warning 202 "main.c" Line 190(15,29): Variable never used:   carga_descarga
+>>> Warning 202 "main.c" Line 192(15,29): Variable never used:   cell_counter_x
+>>> Warning 202 "main.c" Line 193(15,30): Variable never used:   signo_corriente
+>>> Warning 202 "main.c" Line 194(24,31): Variable never used:   v_mayor
+>>> Warning 202 "main.c" Line 195(24,31): Variable never used:   v_menor
+>>> Warning 202 "main.c" Line 196(24,35): Variable never used:   menor_celda
+>>> Warning 202 "main.c" Line 197(24,34): Variable never used:   menor_pack
+>>> Warning 202 "main.c" Line 198(24,35): Variable never used:   mayor_celda
+>>> Warning 202 "main.c" Line 199(24,34): Variable never used:   mayor_pack
+>>> Warning 202 "main.c" Line 200(24,30): Variable never used:   v_mean
+>>> Warning 202 "main.c" Line 205(24,31): Variable never used:   t_menor
+>>> Warning 202 "main.c" Line 206(24,40): Variable never used:   menor_celda_temp
+>>> Warning 202 "main.c" Line 207(24,39): Variable never used:   menor_pack_temp
+>>> Warning 202 "main.c" Line 208(24,40): Variable never used:   mayor_celda_temp
+>>> Warning 202 "main.c" Line 209(24,39): Variable never used:   mayor_pack_temp
+>>> Warning 202 "main.c" Line 241(24,32): Variable never used:   v_min_id
+>>> Warning 202 "main.c" Line 242(24,32): Variable never used:   v_max_id
+>>> Warning 202 "main.c" Line 243(24,32): Variable never used:   t_min_id
+>>> Warning 202 "main.c" Line 244(24,32): Variable never used:   t_max_id
+>>> Warning 202 "main.c" Line 248(25,38): Variable never used:   v_aux_prearga
+>>> Warning 202 "main.c" Line 249(24,38): Variable never used:   display_buffer
+>>> Warning 202 "main.c" Line 250(24,43): Variable never used:   display_buffer_temp
+>>> Warning 202 "main.c" Line 251(24,38): Variable never used:   charger_buffer
+>>> Warning 202 "main.c" Line 252(24,43): Variable never used:   counter_menor_celda
+>>> Warning 202 "main.c" Line 252(47,55): Variable never used:   id_v_min
+>>> Warning 202 "main.c" Line 253(24,48): Variable never used:   counter_mayor_celda_temp
+>>> Warning 202 "main.c" Line 254(24,43): Variable never used:   counter_mayor_celda
+>>> Warning 202 "main.c" Line 438(12,17): Variable never used:   slave
+>>> Warning 202 "main.c" Line 688(19,23): Variable never used:   Imax
+      Memory usage:   ROM=3%      RAM=3% - 3%
+      0 Errors,  60 Warnings.
+Build Successful.

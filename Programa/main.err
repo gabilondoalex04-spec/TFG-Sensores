@@ -1,0 +1,11 @@
+Compiling C:\Users\Alex Gabilondo\Desktop\carrera\FSB 2024-25\Placa de sensores 2025\Programa 24-06-2025 calculo temp+media\Programa\main on 14-abr.-26 at 22:58
+>>> Warning 203 "main.c" Line 192(1,1): Condition always TRUE
+>>> Warning 216 "main.c" Line 255(1,2): Interrupts disabled during call to prevent re-entrancy:  (can_enable_interrupts)
+>>> Warning 216 "main.c" Line 255(1,2): Interrupts disabled during call to prevent re-entrancy:  (can2_enable_interrupts)
+>>> Warning 202 "main.c" Line 28(61,70): Variable never used:   Auxiliar1
+>>> Warning 202 "main.c" Line 28(77,86): Variable never used:   Auxiliar2
+>>> Warning 202 "main.c" Line 36(25,38): Variable never used:   timer1counter
+>>> Warning 202 "main.c" Line 189(18,19): Variable never used:   i
+      Memory usage:   ROM=2%      RAM=2% - 2%
+      0 Errors,  7 Warnings.
+Build Successful.

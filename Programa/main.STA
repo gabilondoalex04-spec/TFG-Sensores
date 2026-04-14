@@ -1,0 +1,84 @@
+
+ROM used:   6288/350208 (2%)
+            6288/350208 (2%) including unused fragments
+
+            0.9 Average locations per line
+            3.0 Average locations per statement
+
+RAM used:   1205/53248 (2%) at main() level
+            1270/53248 (2%) worst case
+
+Stack used: 62 worst case (14 in main + 48 for interrupts)
+Stack size: 128
+
+Lines Stmts  %   Files
+----- ----- ---  -----
+  258   112   5  main.c
+   46     0   0  main.h
+ 1555     0   0  ..\..\..\..\..\..\..\..\Program Files (x86)\PICC\Devices\24EP512GU810.h
+ 4299  1980  95  ..\..\..\..\..\..\..\..\Program Files (x86)\PICC\Drivers\can-PIC24.c
+  168     0   0  ..\..\..\..\..\..\..\..\Program Files (x86)\PICC\Drivers\stdint.h
+  798     0   0  ..\..\..\..\..\..\..\..\Program Files (x86)\PICC\Drivers\can-PIC24.h
+----- -----
+ 7124  2092 Total
+
+Page ROM  %  RAM    Vol Diff  Functions:
+---- --- --- ---    --- ----  ----------
+0    322   3    0   1479  3.4  can_init
+0    322   3    0   1470  3.4  can2_init
+0     60   0    0    262  2.3  can_set_baud
+0     60   0    0    255  2.3  can2_set_baud
+0     28   0    1     83  2.9  can_set_mode
+0     28   0    1     76  3.1  can2_set_mode
+0    174   1   10    721  7.2  can_set_id
+0    174   1   10    712  7.2  can2_set_id
+0    146   1    1    458  3.8  can_set_buffer_size
+0    146   1    1    450  3.8  can2_set_buffer_size
+0     46   0    4    155  3.6  can_enable_filter
+0     46   0    4    147  3.8  can2_enable_filter
+0    344   3    2   1406  4.9  can_associate_filter_to_buffer
+0    344   3    2   1396  4.9  can2_associate_filter_to_buffer
+0    696   6   18   4530 13.4  can_putd
+ Inline        16   9979 10.9  can2_getd
+0    128   1   13    689  7.2  can2_get_id
+0    224   2    1   1205  5.4  can_enable_b_transfer
+0    224   2    1   1195  5.4  can2_enable_b_transfer
+0    242   2    1   1289  5.4  can2_enable_b_receiver
+0     60   0    0    287  3.3  can_config_DMA
+0     60   0    0    280  3.2  can2_config_DMA
+0     26   0    6    136  3.1  can_enable_interrupts
+0     26   0    6    127  3.3  can2_enable_interrupts
+0     76   1    0    228  1.8  timer1_isr
+0    996   8   18    504  3.0  can2_isr
+0     22   0    2     59  1.6  readChanel
+0     62   0    8    295  7.0  factorConversion
+0     78   1    8    428  6.2  normalizacionSuspen
+0    138   1    0    635  2.4  setup
+0    478   4    6   2184  4.9  MAIN
+ Inline         0   2184  4.9  @cinit1
+
+Program metrics:
+    Functions               32
+    Statements              2092
+    Comments                1494
+    Volume (V)              56454
+    Difficulty (D)          150.6
+    Effort to implement (E) 8500967
+    Time to implement (T)   131 hours, 11 minutes
+    Est Delivered Bugs (B)  14
+    Cyclomatic Complexity   157
+    Maintainability (MI)    17
+
+ Segment     Used  Free
+-----------  ----  ----
+00000-00002     4  0  
+00004-001FE   508  0  
+00200-0FFFE  5776  59248  
+10000-1FFFE     0  65536  
+20000-2FFFE     0  65536  
+30000-3FFFE     0  65536  
+40000-4FFFE     0  65536  
+50000-557FE     0  22528  
+
+
+

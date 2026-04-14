@@ -1,0 +1,333 @@
+W0      @SCRATCH
+W0L     _RETURN_
+W0 -W1  @READ_ROM_MEMORY.P1
+W0 -W1  @DIV3232B.P2
+W0      @delay_us1.P3
+W0      @delay_ms1.P4
+W1      @SCRATCH
+W1      @WRITE_PACKED_MEMORY.P1
+W1      @READ_PACKED_MEMORY.P2
+W2      @READ_ROM_MEMORY.P1
+W2 -W3  @DIV3232B.P2
+W2      @READ_PACKED_MEMORY.P3
+W2      @WRITE_PACKED_MEMORY.P4
+W3      @WRITE_PACKED_MEMORY.P1
+W3      @READ_ROM_MEMORY.P2
+W3      @READ_PACKED_MEMORY.P3
+400-401 C1CTRL1
+402-403 C1CTRL2
+404-405 C1VEC
+406-407 C1FCTRL
+408-409 C1FIFO
+40A-40B C1INTF
+40C-40D C1INTE
+40E-40F C1EC
+410-411 C1CFG1
+412-413 C1CFG2
+414     C1FEN1
+418-419 C1FMSKSEL1
+41A-41B C1FMSKSEL2
+420-421 C1BUFPNT1
+420-421 C1RXFUL1
+422-423 C1BUFPNT2
+422-423 C1RXFUL2
+424-425 C1BUFPNT3
+426-427 C1BUFPNT4
+428-429 C1RXOVF1
+42A-42B C1RXOVF2
+430     C1RXM0SID
+430-431 C1TR01CON
+432     C1RXM0
+432-433 C1TR23CON
+434-435 C1TR45CON
+434     C1RXM1SID
+436     C1RXM2
+436     C1RXM1
+436-437 C1TR67CON
+438     C1RXM2SID
+440     C1RXF0SID
+440     C1RXD
+442     C1TXD
+442     C1RXF0
+444     C1RXF1SID
+446     C1RXF1
+448     C1RXF2SID
+44A     C1RXF2
+44C     C1RXF3SID
+44E     C1RXF3
+450     C1RXF4SID
+452     C1RXF4
+454     C1RXF5SID
+456     C1RXF5
+458     C1RXF6SID
+45A     C1RXF6
+45C     C1RXF7SID
+45E     C1RXF7
+460     C1RXF8SID
+462     C1RXF8
+464     C1RXF9SID
+466     C1RXF9
+468     C1RXF10SID
+46A     C1RXF10
+46C     C1RXF11SID
+46E     C1RXF11
+470     C1RXF12SID
+472     C1RXF12
+474     C1RXF13SID
+476     C1RXF13
+478     C1RXF14SID
+47A     C1RXF14
+47C     C1RXF15SID
+47E     C1RXF15
+500-501 C2CTRL1
+502-503 C2CTRL2
+504-505 C2VEC
+506-507 C2FCTRL
+508-509 C2FIFO
+50A-50B C2INTF
+50C-50D C2INTE
+50E-50F C2EC
+510-511 C2CFG1
+512-513 C2CFG2
+514     C2FEN1
+518-519 C2FMSKSEL1
+51A-51B C2FMSKSEL2
+520-521 C2BUFPNT1
+520-521 C2RXFUL1
+522-523 C2RXFUL2
+522-523 C2BUFPNT2
+524-525 C2BUFPNT3
+526-527 C2BUFPNT4
+528-529 C2RXOVF1
+52A-52B C2RXOVF2
+530     C2RXM0SID
+530-531 C2TR01CON
+532-533 C2TR23CON
+532     C2RXM0
+534-535 C2TR45CON
+534     C2RXM1SID
+536     C2RXM1
+536-537 C2TR67CON
+538     C2RXM2SID
+53A     C2RXM2
+540     C2RXD
+540     C2RXF0SID
+542     C2RXF0
+542     C2TXD
+544     C2RXF1SID
+546     C2RXF1
+548     C2RXF2SID
+54A     C2RXF2
+54C     C2RXF3SID
+54E     C2RXF3
+550     C2RXF4SID
+552     C2RXF4
+554     C2RXF5SID
+556     C2RXF5
+558     C2RXF6SID
+55A     C2RXF6
+55C     C2RXF7SID
+55E     C2RXF7
+560     C2RXF8SID
+562     C2RXF8
+564     C2RXF9SID
+566     C2RXF9
+568     C2RXF10SID
+56A     C2RXF10
+56C     C2RXF11SID
+56E     C2RXF11
+570     C2RXF12SID
+572     C2RXF12
+574     C2RXF13SID
+576     C2RXF13
+578     C2RXF14SID
+57A     C2RXF14
+57C     C2RXF15SID
+57E     C2RXF15
+A85.0   C1OUT
+A85.1   C1ENV
+A8D.0   C2OUT
+A8D.1   C2ENV
+A95.0   C3OUT
+A95.1   C3ENV
+1000    curmode
+1001    Speed0
+1002-1003 Steering_Sensor
+1004-1005 Zrack
+1006-1007 Caudal
+1008-1009 T1
+100A-100B T2
+100C-100D T3
+100E-100F T4
+1010-1011 Suspen_Front_DRCH
+1012-1013 Suspen_Front_IZQ
+1014-1015 Auxiliar1
+1016-1017 Auxiliar2
+1018    Speed1
+1019    Speed2
+101A    Speed3
+101B    sendCanMsg
+101C    readAdc
+101E-101F timer1counter
+1020-1027 can_buffer
+1028-102F can_buffer1
+1030-1031 can_fifo_getd.data
+1030-1031 can_getd.data
+1030-1031 can2_fifo_getd.data
+1030    MAIN.i
+1031    MAIN.Steering_SensorCalib
+1032    MAIN.ZrackCalib
+1032.0  can_getd.temp
+1032.0  can_fifo_getd.temp
+1032.0  can2_fifo_getd.temp
+1033    MAIN.Suspen_Front_DRCHCalib
+1034    MAIN.Suspen_Front_IZQCalib
+1034-1035 can_getd.i
+1034-1035 can_fifo_getd.i
+1034-1035 can2_fifo_getd.i
+1035    MAIN.CaudalCalib
+1036-1037 can_fifo_getd.temp1
+1036    can_associate_filter_to_buffer.BUFFER
+1036-1037 readChanel.ch
+1036    can2_set_buffer_size.size
+1036-1037 can_getd.ptr
+1036-1037 normalizacionSuspen.lmed
+1036-1037 can_set_id.addr
+1036-1037 factorConversion.MAX
+1036-1037 can2_enable_filter.filter
+1036-1037 can2_set_id.addr
+1036    can2_enable_b_receiver.b
+1036-1037 can_enable_filter.filter
+1036    can_set_buffer_size.size
+1036-1039 can_putd.id
+1036-1037 can2_fifo_getd.temp1
+1036    can_enable_b_transfer.b
+1036    can2_enable_b_transfer.b
+1036    can2_associate_filter_to_buffer.BUFFER
+1037    can_associate_filter_to_buffer.filter
+1037    can2_associate_filter_to_buffer.filter
+1038-1039 can_enable_filter.ptr
+1038-1039 can2_fifo_getd.ptr
+1038-103B can_set_id.id
+1038-103B can2_set_id.id
+1038-1039 can2_enable_filter.ptr
+1038-1039 can_fifo_getd.ptr
+1038-1039 normalizacionSuspen.data
+1038-1039 factorConversion.min
+103A-103B normalizacionSuspen.desplazamiento
+103A-103B can_putd.data
+103A-103B factorConversion.data
+103C    can_set_id.ext
+103C-103D normalizacionSuspen.valornormal
+103C    can_putd.len
+103C-103D factorConversion.value
+103C    can2_set_id.ext
+103D    can_putd.priority
+103E-103F can2_set_id.temp
+103E-103F can_set_id.temp
+103E    can_putd.ext
+103F    can_putd.rtr
+1040    can_set_mode.mode
+1040    can2_set_mode.mode
+1040-1041 can_putd.ptr
+1042-1043 can_putd.i
+1044-1045 can_putd.port
+1046-1047 can_putd.temp
+1048    can2_isr.can_msg_size_0
+104A-104C can2_isr.rxstat
+104E-1051 can2_isr.can_rcv_msg_id_2
+1052-1059 can2_isr.can_rcv_msg_2
+105A    can_enable_interrupts.setting
+105A-105B can2_getd.data
+105A    can2_enable_interrupts.setting
+105C-105D can2_enable_interrupts.temp
+105C.0  can2_getd.temp
+105C-105D can_enable_interrupts.temp
+105E-105F can2_enable_interrupts.ptr
+105E-105F can2_getd.i
+105E-105F can_enable_interrupts.ptr
+1060-1061 can2_getd.ptr
+106C    can2_get_id.BUFFER
+106D    can2_get_id.ext
+106E-1071 can2_get_id.ret
+1072-1073 can2_get_id.ptr
+1074-1075 can2_get_id.temp
+1076-1077 can2_get_id.temp1
+7F80-7FFF Stack
+D000-D1FF ecan1_message_buffer
+D200-D3FF ecan2_message_buffer
+
+ROM Allocation:
+000200  can_enable_interrupts
+00021A  can2_enable_interrupts
+000234  timer1_isr
+000280  can2_get_id
+000300  can2_isr
+00031E  can2_getd
+0006E4  can_set_mode
+000700  can_set_baud
+00073C  can_set_buffer_size
+0007CE  can_config_DMA
+00080A  can_set_id
+0008B8  can_associate_filter_to_buffer
+000A10  can_enable_filter
+000A3E  can_init
+000B80  can2_set_mode
+000B9C  can2_set_baud
+000BD8  can2_set_buffer_size
+000C6A  can2_config_DMA
+000CA6  can2_set_id
+000D54  can2_associate_filter_to_buffer
+000EAC  can2_enable_filter
+000EDA  can2_init
+00101C  can_enable_b_transfer
+0010FC  can2_enable_b_transfer
+0011DC  can2_enable_b_receiver
+0012CE  setup
+001358  readChanel
+00136E  factorConversion
+0013AC  normalizacionSuspen
+0013FA  can_putd
+0016B2  MAIN
+0016B2  @cinit1
+001718  @cinit2
+
+Project Directory:
+    C:\Users\Alex Gabilondo\Desktop\carrera\FSB 2024-25\Placa de sensores 2025\Programa 24-06-2025 calculo temp+media\Programa\
+
+Project Files:
+    main.c                                                  [14-abr.-26 22:58  CRC=D8DD2B60]
+    main.h                                                  [19-mar.-25 18:02  CRC=8CF62870]
+    ..\..\..\..\..\..\..\..\Program Files (x86)\PICC\Devices\24EP512GU810.h [15-ene.-18 16:00  CRC=28A62561]
+    ..\..\..\..\..\..\..\..\Program Files (x86)\PICC\Drivers\can-PIC24.c [21-mar.-17 10:00  CRC=8B2788B4]
+    ..\..\..\..\..\..\..\..\Program Files (x86)\PICC\Drivers\stdint.h [06-may.-16 10:24  CRC=FE3369EA]
+    ..\..\..\..\..\..\..\..\Program Files (x86)\PICC\Drivers\can-PIC24.h [21-mar.-17 10:02  CRC=A6CA4B18]
+
+Source signature=656901FF
+Program memory checksum=0000
+Program memory CRC=0000
+Hex file CRC=6C35
+
+Units:
+    main (main)
+
+Compiler Settings:
+    Processor:      PIC24EP512GU810
+    Pointer Size:   16
+    ADC Range:      0-255
+    Opt Level:      9
+    Short,Int,Long: SIGNED: 8,16,32
+    Float,Double:   32,64
+    Compile Mode:       CCS5
+
+Output Files:
+    XREF file:   main.xsym
+    Errors:      main.err
+    Ext Symbols: main.esym
+    INHX8:       main.hex
+    Symbols:     main.sym
+    List:        main.lst
+    Debug/COFF:  main.cof
+    Project:     main.ccspjt
+    Call Tree:   main.tre
+    Statistics:  main.STA
